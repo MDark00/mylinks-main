@@ -1,0 +1,56 @@
+.body{
+    background: linear-gradient(160deg, #4c1512ce, #090909ce);
+    height: 100vh;
+}
+#link{
+    background-color: rgba(255, 255, 255, 0.281);
+    cursor: pointer;
+    border: 1px solid white;
+    
+}
+#link:hover{
+    box-shadow: 0px 0px 99px 0px rgba(255, 255, 255, 25%);
+    transition: 0.3s;
+    border: 1px solid white;
+    cursor: pointer;
+    p{
+        color: rgb(255, 255, 255);
+    }
+
+    
+}
+
+.p{
+    color:  rgb(255, 255, 255)  ;
+}
+
+
+.mainimg:hover{
+    transition: 0.3s;
+    box-shadow: 0px 0px 99px 0px rgba(255, 255, 255, 25%);
+}
+
+
+.snowflake {
+    color: white;
+    font-size: 2em;
+    position: fixed;
+    top: -50px;
+    pointer-events: none;
+    animation: fall linear infinite;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+    }
+}
+
+i{
+    color: #756BAF;
+}
+i:hover{
+    transition: 0.3s;
+    color: white;
+}
+
